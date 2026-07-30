@@ -1,0 +1,57 @@
+============================================================
+   HOTEL MANAGEMENT SYSTEM - How to Run
+   College DBMS Mini Project
+============================================================
+
+STEP 1 - Install Python
+-----------------------
+Download and install Python 3 from:
+   https://www.python.org/downloads/
+
+  !! IMPORTANT: During installation, check the box that says
+     "Add Python to PATH" before clicking Install.
+
+------------------------------------------------------------
+
+STEP 2 - Install Required Libraries
+-------------------------------------
+Open Command Prompt (search "cmd" in Start Menu) and paste
+this command, then press Enter:
+
+   pip install flask flask-cors
+
+Wait for it to finish. You only need to do this ONCE.
+
+------------------------------------------------------------
+
+STEP 3 - Run the Project
+--------------------------
+1. Open the HotelManagement folder
+2. Click on the address bar at the top of the folder
+3. Type "cmd" and press Enter  (opens terminal in that folder)
+4. Paste this command and press Enter:
+
+   python app.py
+
+You will see:
+   * Running on http://127.0.0.1:5000
+
+------------------------------------------------------------
+
+STEP 4 - Open in Browser
+--------------------------
+Open any browser (Chrome, Edge, Firefox) and go to:
+
+   http://127.0.0.1:5000
+
+The Hotel Management System will open!
+
+------------------------------------------------------------
+
+NOTES:
+- The database (hotel.db) is created automatically on first run.
+- Keep the "cmd" window open while using the app.
+- To stop the server, press Ctrl + C in the cmd window.
+- No MySQL or XAMPP needed. Works out of the box!
+
+============================================================
